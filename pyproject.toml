@@ -12,7 +12,3 @@ dependencies = [
     "tqdm>=4.70.0",
 ]
 
-[tool.uv.workspace]
-members = [
-    "minicurso_pandas",
-]
