@@ -1,8 +1,15 @@
 # Notas de aula de Programação Estatística ministrada pelo prof. Dr. Thiago Rodrigo Ramos em 2026/2
 
-# Na disciplina, aprendemos métodos importantes e interessantes para a estatística, como:
-## Inversão da CDF
-## Simular variáveis através de uniformes, ou outras variáveis aleatórias
+# Repository Structure
+The repository contains scripts, notebooks, experiments, and visualization tools associated with the research pipeline.
 
-### Exercícios de laboratórios em ```.ipynb```
-
+```text
+prog-estat/
+|
+├──labs/
+|   └── Classes' files
+├──inversao-cdf-discreta.html
+├──pyproject.toml
+├──uv.lock
+├──metodosComputacionais.pdf
+```
