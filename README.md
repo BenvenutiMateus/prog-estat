@@ -1,8 +1,18 @@
-# Notas de aula de Programação Estatística ministrada pelo prof. Dr. Thiago Rodrigo Ramos em 2026/2
+# Statistical Programming
 
-# Na disciplina, aprendemos métodos importantes e interessantes para a estatística, como:
-## Inversão da CDF
-## Simular variáveis através de uniformes, ou outras variáveis aleatórias
+Class notes and materials from the **Statistical Programming** course taught by **Prof. Dr. Thiago Rodrigo Ramos** at UFSCar during the **2026/2 semester**.
 
-### Exercícios de laboratórios em ```.ipynb```
+## Repository Structure
 
+This repository contains class materials, scripts, computational experiments, and supporting resources from the course.
+
+```text
+prog-estat/
+│
+├── labs/
+│   └── Class files
+├── inversao-cdf-discreta.html
+├── metodosComputacionais.pdf
+├── pyproject.toml
+└── uv.lock
+```
