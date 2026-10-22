@@ -20,3 +20,9 @@ def exp(lamb = 1, M = 100_000):
     """
     uniformes = np.random.uniform(size=M)
     return -np.log(uniformes)/lamb
+
+def densidade_normal(x, mi=0, sigma2=1):
+    return np.exp(-((x - mi)**2) / (2 * sigma2)) / np.sqrt(2 * np.pi * sigma2)
+
+def densidade_exponencial(x, lamb = 1):
+    return lamb * np.exp(-lamb*x)
